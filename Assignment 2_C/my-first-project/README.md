@@ -1,27 +1,27 @@
 # MyFirstProject
+// Requirments to run this Application
+Install Node.js from the official Node.js website: ```https://nodejs.org/en/download```
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Angular CLI: Angular CLI is a command-line tool used for creating, building, and serving Angular applications
+Install Angular CLI: ```npm install -g @angular/cli``` in terminal 
 
-## Development server
+Steps to Run This Application
+Open Assignment 2_C/my-first-project in terminal
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```ng serve``` // To start the development server and run the Angular application
 
-## Code scaffolding
+```
+ng : File C:\Users\Acer\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ng serve
++ ~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
+Note: If you get Error like this than Execute below command in terminal
+```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+after run ```ng serve```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
