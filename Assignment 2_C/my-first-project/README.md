@@ -1,14 +1,14 @@
 # MyFirstProject
-// Requirments to run this Application
-Install Node.js from the official Node.js website: ```https://nodejs.org/en/download```
+// Requirments to run this Application  
+Install Node.js from the official Node.js website: ```https://nodejs.org/en/download```  
 
-Angular CLI: Angular CLI is a command-line tool used for creating, building, and serving Angular applications
-Install Angular CLI: ```npm install -g @angular/cli``` in terminal 
+Angular CLI: Angular CLI is a command-line tool used for creating, building, and serving Angular applications  
+Install Angular CLI: ```npm install -g @angular/cli``` in terminal  
 
-Steps to Run This Application
-Open Assignment 2_C/my-first-project in terminal
+Steps to Run This Application  
+Open Assignment 2_C/my-first-project in terminal  
 
-```ng serve``` // To start the development server and run the Angular application
+```ng serve``` // To start the development server and run the Angular application  
 
 ```
 ng : File C:\Users\Acer\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this
@@ -19,9 +19,9 @@ At line:1 char:1
     + CategoryInfo          : SecurityError: (:) [], PSSecurityException
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
-Note: If you get Error like this than Execute below command in terminal
+Note: If you get Error like this than Execute below command in terminal  
 ```Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser```
 
-after run ```ng serve```
+after run ```ng serve```  
 
 
