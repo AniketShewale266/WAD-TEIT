@@ -7,7 +7,7 @@ This information is used to track who made changes to the code, and it can also 
 2. ```git config --global user.name "Your Name"```
 
 open github and click on settings-> ssh and GPG keys-> generate ssh keys
-  ```ssh-keygen -t rsa -b 4096 -C "abhisheksinha12377@gmail.com"```
+  ```ssh-keygen -t rsa -b 4096 -C "your_email@gmail.com"```
   press enter
   press enter
   
@@ -41,7 +41,7 @@ When you create a commit, you are essentially taking a snapshot of your project 
 
 //The git remote add origin command is used to add a new remote repository to your local repository. The remote repository is typically a public repository on a service like GitHub or Bitbucket. Once you have added a remote repository, you can use it to fetch and push changes to your local repository.
 
-7. ```git remote add origin https://github.com/AbhishekSinha7/test1.git```
+7. ```git remote add origin your_repo_link```
 
 //remove origin if existed 
 
