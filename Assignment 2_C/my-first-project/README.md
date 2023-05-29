@@ -8,6 +8,11 @@ Install Angular CLI: ```npm install -g @angular/cli``` in terminal
 Steps to Run This Application  
 Open Assignment 2_C/my-first-project in terminal  
 
+//To download node_modules folder. 
+
+```npm i```
+
+
 ```ng serve``` // To start the development server and run the Angular application  
 
 ```
